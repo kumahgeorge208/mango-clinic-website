@@ -1,0 +1,896 @@
+<!--
+Made with Widgetizer v0.9.9
+Per aspera ad astra
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Portfolio</title>
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Cabin:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180" />
+
+    <link rel="manifest" href="site.webmanifest" />
+
+    <style id="theme-settings-styles">
+      :root {
+        --colors-standard_bg_primary: #fafbf8;
+        --colors-standard_bg_secondary: #f0f3ec;
+        --colors-standard_text_content: #3a4a3a;
+        --colors-standard_text_heading: #1a2e1a;
+        --colors-standard_text_muted: #6e7d6e;
+        --colors-standard_border_color: #dde3d8;
+        --colors-standard_accent: #3a7d44;
+        --colors-standard_accent_text: #ffffff;
+        --colors-standard_rating_star: #e8b931;
+        --colors-highlight_bg_primary: #1a2e1a;
+        --colors-highlight_bg_secondary: #121f12;
+        --colors-highlight_text_content: #adb8a8;
+        --colors-highlight_text_heading: #f0f3ec;
+        --colors-highlight_text_muted: #78856f;
+        --colors-highlight_border_color: #2e3e2e;
+        --colors-highlight_accent: #6db868;
+        --colors-highlight_accent_text: #1a2e1a;
+        --colors-highlight_rating_star: #e8b931;
+        --typography-heading_font-family: "Lexend", sans-serif;
+        --typography-heading_font-weight: 600;
+        --typography-heading_scale: 100;
+        --typography-body_font-family: "Cabin", sans-serif;
+        --typography-body_font-weight: 400;
+        --typography-body_font_bold-weight: 700;
+        --typography-body_scale: 100;
+      }
+    </style>
+
+    <link rel="stylesheet" href="assets/base.css?v=1" />
+
+    <style>
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </head>
+  <body class="page-portfolio transparent-header corner-rounded spacing-default buttons-pill">
+    <a href="#main-content" class="visually-hidden skip-link">Skip to main content</a>
+    <header
+      id="header"
+      class="widget widget-site-header color-scheme-standard-primary header-sticky"
+      data-widget-id="header"
+      data-widget-type="header"
+    >
+      <style>
+        .widget-site-header .header-logo-image {
+          max-width: 90px;
+          height: auto;
+          display: block;
+        }
+        .widget-site-header .header-logo img[src$=".svg"],
+        .widget-site-header .header-logo-image[src$=".svg"] {
+          width: auto;
+          height: auto;
+          max-height: 90px;
+          min-height: 40px;
+          object-fit: contain;
+          vertical-align: middle;
+        }
+        .widget-site-header .header-logo {
+          line-height: 0;
+        }
+        .widget-site-header .header-logo img {
+          display: inline-block;
+        }
+
+        .widget-site-header .header-inner {
+          max-width: var(--container-max-width);
+          margin-inline: auto;
+        }
+      </style>
+
+      <div class="header-inner">
+        <div class="header-branding">
+          <a href="index.html" class="header-logo">
+            <img
+              src="assets/images/mango-clinic-logo-1.png"
+              alt=""
+              class="header-logo-image header-logo-default"
+              width="794"
+              height="777"
+            />
+
+            <img
+              src="assets/images/mango-clinic-logo.png"
+              alt=""
+              class="header-logo-image header-logo-transparent"
+              width="1024"
+              height="1024"
+            />
+          </a>
+
+          <div class="header-contact">
+            <span class="header-contact-line t-sm t-body-bold t-heading" data-setting="contactDetailsLine1">
+              +233 53 366 6621
+            </span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <nav class="header-nav" id="main-navigation" aria-label="Primary">
+            <div class="nav-close">
+              <span class="nav-close-title">Menu</span>
+              <button type="button" class="nav-close-btn" aria-label="Close navigation menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M18 6l-12 12" />
+                  <path d="M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="about.html" class=""> About Us </a>
+              </li>
+              <li class="nav-item">
+                <a href="services.html" class=""> Our Solutions </a>
+              </li>
+              <li class="nav-item is-active">
+                <a href="portfolio.html" class="" aria-current="page"> Advanced Farm Care </a>
+              </li>
+              <li class="nav-item">
+                <a href="our-inputs.html" class=""> Our Products </a>
+              </li>
+              <li class="nav-item has-submenu">
+                <a href="industry-insights.html" class=""> Industry Insights </a>
+                <ul class="nav-submenu">
+                  <li class="nav-item">
+                    <a href="industry-insights.html" class=""> Training and Research: training-and-research </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class=""> Contact </a>
+              </li>
+            </ul>
+
+            <div class="header-contact header-contact-mobile">
+              <span class="header-contact-line t-lg t-body-bold t-heading" data-setting="contactDetailsLine1">
+                +233 53 366 6621
+              </span>
+            </div>
+          </nav>
+
+          <div class="header-end"></div>
+
+          <button
+            type="button"
+            class="menu-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="main-navigation"
+          >
+            <svg
+              class="icon-menu"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 6l16 0" />
+              <path d="M4 12l16 0" />
+              <path d="M4 18l16 0" />
+            </svg>
+            <svg
+              class="icon-close"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content">
+      <section
+        id="hero"
+        class="widget widget-banner widget-hero color-scheme-highlight-secondary has-bg-image has-overlay widget-height-small spacing-top-none spacing-bottom-none"
+        style="
+          background-image: url(&quot;assets/images/palm-farm.png&quot;);
+          --widget-overlay-color: #0c190cc2;
+          --widget-overlay-opacity: 1;
+        "
+        data-widget-id="hero"
+        data-widget-type="banner"
+        data-widget-index="1"
+      >
+        <style>
+          .widget-hero {
+            /* Reset default widget spacing for full-bleed layouts */
+            margin-block: 0;
+            padding-inline: var(--space-xl);
+            display: flex;
+            flex-direction: column;
+          }
+
+          .widget-hero .widget-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+          }
+
+          .widget-hero .widget-icon-block-center {
+            display: flex;
+            justify-content: center;
+          }
+
+          @media (max-width: 749px) {
+            .widget-hero {
+              padding-inline: var(--space-md);
+            }
+          }
+        </style>
+
+        <div class="widget-container">
+          <div class="widget-content content-flow widget-content-lg widget-content-align-center">
+            <h1
+              class="w-headline t-3xl reveal reveal-up"
+              style="--reveal-delay: 0"
+              data-block-id="hero-heading"
+              data-setting="text"
+            >
+              Inputs and Technology | Mango Clinic
+            </h1>
+
+            <div
+              class="w-body w-rte t-base t-muted reveal reveal-up"
+              style="--reveal-delay: 1"
+              data-block-id="hero-text"
+              data-setting="text"
+            >
+              <p>
+                Fertilizers, biostimulants, crop protection, biological inputs, irrigation, post-harvest and farm
+                management technologies for fruit farmers, from reputable partners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="gallery"
+        class="widget widget-type-project-showcase widget-gallery color-scheme-standard-primary"
+        data-widget-id="gallery"
+        data-widget-type="project-showcase"
+        data-widget-index="2"
+      >
+        <style>
+          .widget-gallery {
+            /* Project-specific styles */
+            & .widget-card {
+              position: relative;
+              padding: 0;
+              overflow: hidden;
+              border: none;
+
+              &:hover .project-image {
+                transform: scale(1.05);
+              }
+
+              &:hover .project-overlay {
+                opacity: 1;
+              }
+            }
+
+            & .project-image {
+              width: 100%;
+              height: auto;
+
+              aspect-ratio: 4 / 3;
+
+              object-fit: cover;
+              display: block;
+              transition: transform var(--transition-speed-normal) ease;
+              border-radius: 0;
+              margin: 0;
+            }
+
+            & .project-overlay {
+              position: absolute;
+              inset: 0;
+              background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 60%);
+              display: flex;
+              align-items: flex-end;
+              padding: var(--space-lg);
+              opacity: 1;
+              transition: opacity var(--transition-speed-normal) ease;
+            }
+
+            & .project-content {
+              color: #ffffff;
+            }
+
+            & .project-title {
+              color: #ffffff;
+            }
+
+            & .project-description {
+              font-size: calc(var(--font-size-sm) * var(--body-scale));
+              color: rgba(255, 255, 255, 0.8);
+              margin-block-start: var(--space-xs);
+            }
+
+            & .widget-card-link {
+              position: absolute;
+              inset: 0;
+              z-index: 1;
+            }
+          }
+        </style>
+
+        <div class="widget-container">
+          <div class="widget-content">
+            <ul class="widget-card-grid widget-grid" style="--grid-cols-desktop: 3">
+              <li class="widget-card reveal reveal-scale" style="--reveal-delay: 0" data-block-id="proj-1">
+                <img
+                  src="assets/images/crackstop-pro-1.png"
+                  alt=""
+                  class="project-image"
+                  width="1712"
+                  height="624"
+                  loading="lazy"
+                  srcset="
+                    assets/images/crackstop-pro-1-small.png   480w,
+                    assets/images/crackstop-pro-1-medium.png 1024w,
+                    assets/images/crackstop-pro-1.png        1712w
+                  "
+                  sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33.333333333333336vw"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-content">
+                    <h2 class="project-title w-title t-xl" data-setting="title">Inputs and Technology</h2>
+
+                    <p class="project-description w-body t-sm" data-setting="description">
+                      Proven products and tools, recommended only where your farm needs them.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="widget-card reveal reveal-scale" style="--reveal-delay: 1" data-block-id="proj-2">
+                <img
+                  src="assets/images/potassiun-nitrate-1.png"
+                  alt=""
+                  class="project-image"
+                  width="1712"
+                  height="624"
+                  loading="lazy"
+                  srcset="
+                    assets/images/potassiun-nitrate-1-small.png   480w,
+                    assets/images/potassiun-nitrate-1-medium.png 1024w,
+                    assets/images/potassiun-nitrate-1.png        1712w
+                  "
+                  sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33.333333333333336vw"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-content">
+                    <h2 class="project-title w-title t-xl" data-setting="title">Fertilizers</h2>
+
+                    <p class="project-description w-body t-sm" data-setting="description">
+                      Balanced nutrition programmes matched to soil and leaf results and to the stage of the crop.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="widget-card reveal reveal-scale" style="--reveal-delay: 2" data-block-id="proj-3">
+                <img
+                  src="assets/images/paclo-max-1.png"
+                  alt=""
+                  class="project-image"
+                  width="1712"
+                  height="624"
+                  loading="lazy"
+                  srcset="
+                    assets/images/paclo-max-1-small.png   480w,
+                    assets/images/paclo-max-1-medium.png 1024w,
+                    assets/images/paclo-max-1.png        1712w
+                  "
+                  sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33.333333333333336vw"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-content">
+                    <h2 class="project-title w-title t-xl" data-setting="title">Biostimulants</h2>
+
+                    <p class="project-description w-body t-sm" data-setting="description">
+                      Products that help trees cope with stress and support flowering, fruit set and fruit development.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="widget-card reveal reveal-scale" style="--reveal-delay: 3" data-block-id="proj-4">
+                <img
+                  src="assets/images/azotec-pro-systemic-fungicide-1.png"
+                  alt=""
+                  class="project-image"
+                  width="1712"
+                  height="624"
+                  loading="lazy"
+                  srcset="
+                    assets/images/azotec-pro-systemic-fungicide-1-small.png   480w,
+                    assets/images/azotec-pro-systemic-fungicide-1-medium.png 1024w,
+                    assets/images/azotec-pro-systemic-fungicide-1.png        1712w
+                  "
+                  sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33.333333333333336vw"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-content">
+                    <h2 class="project-title w-title t-xl" data-setting="title">Crop Protection Products</h2>
+
+                    <p class="project-description w-body t-sm" data-setting="description">
+                      Registered products for managing pests and diseases, used as part of an integrated plan and
+                      applied safely.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="widget-card reveal reveal-scale" style="--reveal-delay: 4" data-block-id="proj-5">
+                <img
+                  src="assets/images/irrigation.png"
+                  alt=""
+                  class="project-image"
+                  width="1712"
+                  height="624"
+                  loading="lazy"
+                  srcset="
+                    assets/images/irrigation-small.png   480w,
+                    assets/images/irrigation-medium.png 1024w,
+                    assets/images/irrigation.png        1712w
+                  "
+                  sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33.333333333333336vw"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-content">
+                    <h2 class="project-title w-title t-xl" data-setting="title">Irrigation Technologies</h2>
+
+                    <p class="project-description w-body t-sm" data-setting="description">
+                      Water systems that help trees through dry spells and support steady yields.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="widget-card reveal reveal-scale" style="--reveal-delay: 5" data-block-id="proj-6">
+                <img
+                  src="assets/images/mango-harvest-2.png"
+                  alt=""
+                  class="project-image"
+                  width="1086"
+                  height="720"
+                  loading="lazy"
+                  srcset="
+                    assets/images/mango-harvest-2-small.png   480w,
+                    assets/images/mango-harvest-2-medium.png 1024w,
+                    assets/images/mango-harvest-2.png        1086w
+                  "
+                  sizes="(max-width: 749px) 100vw, (max-width: 989px) 50vw, 33.333333333333336vw"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-content">
+                    <h2 class="project-title w-title t-xl" data-setting="title">Post-Harvest Technologies</h2>
+
+                    <p class="project-description w-body t-sm" data-setting="description">
+                      Handling, cooling and packing solutions that protect fruit quality after harvest.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        id="widget_4c83d5e1-b519-45ac-bc04-aad7b99d57d9"
+        class="widget widget-type-steps widget-widget_4c83d5e1-b519-45ac-bc04-aad7b99d57d9 color-scheme-standard-primary"
+        data-widget-id="widget_4c83d5e1-b519-45ac-bc04-aad7b99d57d9"
+        data-widget-type="steps"
+        data-widget-index="3"
+      >
+        <style>
+          .widget-widget_4c83d5e1-b519-45ac-bc04-aad7b99d57d9 {
+            & .steps-list {
+              display: flex;
+              flex-direction: column;
+            }
+
+            & .steps-item {
+              display: grid;
+              grid-template-columns: 1fr auto 1fr;
+              gap: var(--space-2xl);
+              align-items: start;
+              padding-block: var(--space-2xl);
+
+              &:first-child {
+                padding-block-start: 0;
+              }
+
+              &:last-child {
+                padding-block-end: 0;
+              }
+            }
+
+            & .steps-image {
+              border-radius: var(--radius-lg);
+              overflow: hidden;
+
+              & img {
+                width: 100%;
+                height: auto;
+                display: block;
+              }
+            }
+
+            & .steps-badge-col {
+              align-self: stretch;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              position: relative;
+            }
+
+            & .steps-badge-col::before {
+              content: "";
+              position: absolute;
+              top: calc(-1 * var(--space-2xl));
+              bottom: calc(-1 * var(--space-2xl));
+              left: 50%;
+              width: var(--border-width-medium);
+              background-color: var(--border-color);
+              transform: translateX(-50%);
+            }
+
+            & .steps-item:first-child .steps-badge-col::before {
+              top: 2.4rem;
+            }
+
+            & .steps-item:last-child .steps-badge-col::before {
+              bottom: calc(100% - 2.4rem);
+            }
+
+            & .steps-badge {
+              position: relative;
+              z-index: 1;
+              width: 4.8rem;
+              height: 4.8rem;
+              border-radius: var(--radius-marker);
+              background-color: var(--accent);
+              color: var(--accent-text);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: var(--font-size-lg);
+              font-weight: 600;
+              flex-shrink: 0;
+            }
+
+            & .steps-content {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-md);
+            }
+
+            & .steps-content .w-title {
+              margin: 0;
+            }
+
+            & .steps-content .w-body {
+              margin: 0;
+            }
+
+            @media (min-width: 750px) {
+              /* Even rows: text left, badge center, image right */
+              & .steps-item:nth-child(even) {
+                & .steps-image {
+                  order: 3;
+                }
+
+                & .steps-badge-col {
+                  order: 2;
+                }
+
+                & .steps-content {
+                  order: 1;
+                  text-align: end;
+                  align-items: flex-end;
+                }
+              }
+            }
+
+            @media (max-width: 749px) {
+              & .steps-item {
+                grid-template-columns: 1fr;
+                gap: var(--space-lg);
+                text-align: center;
+              }
+
+              & .steps-badge-col {
+                margin-inline: auto;
+                align-self: auto;
+              }
+
+              & .steps-badge-col::before {
+                display: none;
+              }
+
+              & .steps-image {
+                order: 2;
+              }
+
+              & .steps-badge-col {
+                order: 1;
+              }
+
+              & .steps-content {
+                order: 3;
+                align-items: center;
+              }
+            }
+          }
+        </style>
+
+        <div class="widget-container">
+          <div class="widget-header">
+            <span class="w-eyebrow reveal reveal-up" style="--reveal-delay: 0" data-setting="eyebrow">OUR PROMISE</span>
+
+            <h2 class="w-headline reveal reveal-up" style="--reveal-delay: 1" data-setting="title">
+              The Problem Comes First
+            </h2>
+          </div>
+
+          <div class="widget-content">
+            <div class="steps-list">
+              <div
+                class="steps-item reveal reveal-up"
+                style="--reveal-delay: 0"
+                data-block-id="block_3fd1489e-8785-4018-94ab-cc0d5b68319e"
+              >
+                <div class="steps-image"></div>
+
+                <div class="steps-badge-col">
+                  <div class="steps-badge" aria-hidden="true">1</div>
+                </div>
+
+                <div class="steps-content">
+                  <div class="w-body w-rte" data-setting="description">
+                    <p>
+                      Mango Clinic maintains technical independence. We do not start with a product. We start with your
+                      farm, find the cause of the problem, and only then recommend the input or technology that will
+                      solve it.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="steps-item reveal reveal-up"
+                style="--reveal-delay: 1"
+                data-block-id="block_c86a9751-8291-4155-94a8-da280cb3b388"
+              >
+                <div class="steps-image"></div>
+
+                <div class="steps-badge-col">
+                  <div class="steps-badge" aria-hidden="true">2</div>
+                </div>
+
+                <div class="steps-content">
+                  <div class="w-body w-rte" data-setting="description">
+                    <p>
+                      Sometimes the answer is a better pruning plan or a change in timing, not something you need to
+                      buy. When a product is the right answer, we point you to a reputable supplier.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="cta"
+        class="widget widget-action-bar widget-cta color-scheme-highlight-primary"
+        data-widget-id="cta"
+        data-widget-type="action-bar"
+        style="--widget-bg-color: var(--bg-primary)"
+      >
+        <style>
+          .widget-cta {
+            & .action-bar-inner {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: var(--space-xl);
+            }
+
+            & .action-bar-content {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-2xs);
+              flex: 1;
+              min-width: 0;
+            }
+
+            & .action-bar-actions {
+              display: flex;
+              flex-shrink: 0;
+            }
+
+            @media (max-width: 749px) {
+              & .action-bar-inner {
+                flex-direction: column;
+                text-align: center;
+              }
+
+              & .action-bar-actions {
+                justify-content: center;
+              }
+            }
+          }
+        </style>
+
+        <div class="widget-container widget-container-padded">
+          <div class="action-bar-inner">
+            <div class="action-bar-content">
+              <h2 class="w-headline t-2xl" data-block-id="cta-heading" data-setting="text">
+                Have a Product That Could Help Fruit Farmers?
+              </h2>
+
+              <div class="w-body w-rte t-sm t-uppercase t-muted" data-block-id="cta-text" data-setting="text">
+                <p>We run on-farm demonstrations and efficacy trials with partner companies.</p>
+              </div>
+            </div>
+
+            <div class="widget-actions action-bar-actions" style="gap: var(--space-md)" data-block-id="cta-button">
+              <a
+                href="contact.html"
+                class="widget-button widget-button-medium widget-button-primary"
+                data-setting="link"
+              >
+                Partner With Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      id="footer"
+      class="widget widget-footer widget-footer color-scheme-highlight-secondary"
+      data-widget-id="footer"
+      data-widget-type="footer"
+      style="--widget-bg-color: var(--bg-primary)"
+    >
+      <style>
+        .widget-footer .footer-column:first-child {
+          grid-column: span 2;
+        }
+      </style>
+
+      <div class="widget-container footer-content">
+        <div class="widget-grid" style="--grid-cols-desktop: 4; --grid-gap: var(--space-3xl)">
+          <div class="footer-column" data-block-id="logo_text_1">
+            <style>
+              .widget-footer [data-block-id="logo_text_1"] .footer-logo {
+                max-width: 100px;
+                height: auto;
+                display: block;
+              }
+            </style>
+            <img
+              src="assets/images/mango-clinic-logo-1-small.png"
+              alt="Logo"
+              class="footer-logo"
+              width="480"
+              height="470"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="footer-column" data-block-id="text_block_1">
+            <h3 class="w-title t-lg" data-setting="title">Contact</h3>
+
+            <div class="w-body w-rte t-sm" data-setting="text">
+              <p>(503) 555-0147</p>
+              <p>
+                <a target="_blank" rel="noopener noreferrer" href="mailto:info@ssplendorfarms.org"
+                  >info@mangoclinic.org</a
+                >
+              </p>
+              <p>Team Ghana<br />Wuming District, Nanning City, Guangxi</p>
+            </div>
+          </div>
+
+          <div class="footer-column" data-block-id="menu_block_1">
+            <h3 class="w-title t-lg" data-setting="title">Pages</h3>
+
+            <nav class="footer-nav" aria-label="Pages">
+              <ul class="footer-menu">
+                <li class="footer-menu-item">
+                  <a href="index.html" class="footer-menu-link"> Home </a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="about.html" class="footer-menu-link"> About Us </a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="services.html" class="footer-menu-link"> Our Solutions </a>
+                </li>
+                <li class="footer-menu-item is-active">
+                  <a href="portfolio.html" class="footer-menu-link" aria-current="page"> Inputs and Technology </a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="contact.html" class="footer-menu-link"> Contact </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="footer-copyright w-rte" data-setting="copyright">
+          <p>© 2026 Mango Clinic. All rights reserved. Developed by Fieldbridge Analytics +233542053653</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/scripts.js?v=1" defer></script>
+  </body>
+</html>

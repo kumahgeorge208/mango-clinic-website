@@ -1,0 +1,1160 @@
+<!--
+Made with Widgetizer v0.9.9
+Per aspera ad astra
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>About</title>
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="About" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="About" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Cabin:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180" />
+
+    <link rel="manifest" href="site.webmanifest" />
+
+    <style id="theme-settings-styles">
+      :root {
+        --colors-standard_bg_primary: #fafbf8;
+        --colors-standard_bg_secondary: #f0f3ec;
+        --colors-standard_text_content: #3a4a3a;
+        --colors-standard_text_heading: #1a2e1a;
+        --colors-standard_text_muted: #6e7d6e;
+        --colors-standard_border_color: #dde3d8;
+        --colors-standard_accent: #3a7d44;
+        --colors-standard_accent_text: #ffffff;
+        --colors-standard_rating_star: #e8b931;
+        --colors-highlight_bg_primary: #1a2e1a;
+        --colors-highlight_bg_secondary: #121f12;
+        --colors-highlight_text_content: #adb8a8;
+        --colors-highlight_text_heading: #f0f3ec;
+        --colors-highlight_text_muted: #78856f;
+        --colors-highlight_border_color: #2e3e2e;
+        --colors-highlight_accent: #6db868;
+        --colors-highlight_accent_text: #1a2e1a;
+        --colors-highlight_rating_star: #e8b931;
+        --typography-heading_font-family: "Lexend", sans-serif;
+        --typography-heading_font-weight: 600;
+        --typography-heading_scale: 100;
+        --typography-body_font-family: "Cabin", sans-serif;
+        --typography-body_font-weight: 400;
+        --typography-body_font_bold-weight: 700;
+        --typography-body_scale: 100;
+      }
+    </style>
+
+    <link rel="stylesheet" href="assets/base.css?v=1" />
+
+    <style>
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+
+    <link rel="stylesheet" href="assets/slideshow.css?v=1" />
+  </head>
+  <body class="page-about transparent-header corner-rounded spacing-default buttons-pill">
+    <a href="#main-content" class="visually-hidden skip-link">Skip to main content</a>
+    <header
+      id="header"
+      class="widget widget-site-header color-scheme-standard-primary header-sticky"
+      data-widget-id="header"
+      data-widget-type="header"
+    >
+      <style>
+        .widget-site-header .header-logo-image {
+          max-width: 90px;
+          height: auto;
+          display: block;
+        }
+        .widget-site-header .header-logo img[src$=".svg"],
+        .widget-site-header .header-logo-image[src$=".svg"] {
+          width: auto;
+          height: auto;
+          max-height: 90px;
+          min-height: 40px;
+          object-fit: contain;
+          vertical-align: middle;
+        }
+        .widget-site-header .header-logo {
+          line-height: 0;
+        }
+        .widget-site-header .header-logo img {
+          display: inline-block;
+        }
+
+        .widget-site-header .header-inner {
+          max-width: var(--container-max-width);
+          margin-inline: auto;
+        }
+      </style>
+
+      <div class="header-inner">
+        <div class="header-branding">
+          <a href="index.html" class="header-logo">
+            <img
+              src="assets/images/mango-clinic-logo-1.png"
+              alt=""
+              class="header-logo-image header-logo-default"
+              width="794"
+              height="777"
+            />
+
+            <img
+              src="assets/images/mango-clinic-logo.png"
+              alt=""
+              class="header-logo-image header-logo-transparent"
+              width="1024"
+              height="1024"
+            />
+          </a>
+
+          <div class="header-contact">
+            <span class="header-contact-line t-sm t-body-bold t-heading" data-setting="contactDetailsLine1">
+              +233 53 366 6621
+            </span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <nav class="header-nav" id="main-navigation" aria-label="Primary">
+            <div class="nav-close">
+              <span class="nav-close-title">Menu</span>
+              <button type="button" class="nav-close-btn" aria-label="Close navigation menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M18 6l-12 12" />
+                  <path d="M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item is-active">
+                <a href="about.html" class="" aria-current="page"> About Us </a>
+              </li>
+              <li class="nav-item">
+                <a href="services.html" class=""> Our Solutions </a>
+              </li>
+              <li class="nav-item">
+                <a href="portfolio.html" class=""> Advanced Farm Care </a>
+              </li>
+              <li class="nav-item">
+                <a href="our-inputs.html" class=""> Our Products </a>
+              </li>
+              <li class="nav-item has-submenu">
+                <a href="industry-insights.html" class=""> Industry Insights </a>
+                <ul class="nav-submenu">
+                  <li class="nav-item">
+                    <a href="industry-insights.html" class=""> Training and Research: training-and-research </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class=""> Contact </a>
+              </li>
+            </ul>
+
+            <div class="header-contact header-contact-mobile">
+              <span class="header-contact-line t-lg t-body-bold t-heading" data-setting="contactDetailsLine1">
+                +233 53 366 6621
+              </span>
+            </div>
+          </nav>
+
+          <div class="header-end"></div>
+
+          <button
+            type="button"
+            class="menu-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="main-navigation"
+          >
+            <svg
+              class="icon-menu"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 6l16 0" />
+              <path d="M4 12l16 0" />
+              <path d="M4 18l16 0" />
+            </svg>
+            <svg
+              class="icon-close"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content">
+      <section
+        id="hero"
+        class="widget widget-banner widget-hero color-scheme-highlight-primary has-bg-image has-overlay widget-height-small spacing-top-none spacing-bottom-none"
+        style="
+          background-image: url(&quot;assets/images/mango-field.png&quot;);
+          --widget-overlay-color: #0c190cc2;
+          --widget-overlay-opacity: 1;
+        "
+        data-widget-id="hero"
+        data-widget-type="banner"
+        data-widget-index="1"
+      >
+        <style>
+          .widget-hero {
+            /* Reset default widget spacing for full-bleed layouts */
+            margin-block: 0;
+            padding-inline: var(--space-xl);
+            display: flex;
+            flex-direction: column;
+          }
+
+          .widget-hero .widget-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+          }
+
+          .widget-hero .widget-icon-block-center {
+            display: flex;
+            justify-content: center;
+          }
+
+          @media (max-width: 749px) {
+            .widget-hero {
+              padding-inline: var(--space-md);
+            }
+          }
+        </style>
+
+        <div class="widget-container">
+          <div class="widget-content content-flow widget-content-lg widget-content-align-center">
+            <h1
+              class="w-headline t-3xl reveal reveal-up"
+              style="--reveal-delay: 0"
+              data-block-id="hero-heading"
+              data-setting="text"
+            >
+              About Mango Clinic
+            </h1>
+
+            <div
+              class="w-body w-rte t-lg reveal reveal-up"
+              style="--reveal-delay: 1"
+              data-block-id="block_39e0751b-8c56-4168-89e4-a49d8aabfc0c"
+              data-setting="text"
+            >
+              <p>Fruit Industry Solutions Hub</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="story"
+        class="widget widget-type-image-text widget-story color-scheme-standard-primary"
+        style="--text-align-y: center"
+        data-widget-id="story"
+        data-widget-type="image-text"
+        data-widget-index="2"
+      >
+        <style>
+          .widget-story {
+            & .image-text-wrapper {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-3xl);
+            }
+
+            & .image-wrapper {
+              width: 100%;
+
+              & img {
+                width: 100%;
+                height: auto;
+                display: block;
+                border: var(--border-width-thin) solid var(--border-color);
+                border-radius: var(--radius-lg);
+              }
+            }
+
+            & .text-content-colored {
+              background-color: var(--bg-primary);
+              padding: var(--space-2xl);
+              border-radius: var(--radius-lg);
+              display: flex;
+              flex-direction: column;
+              justify-content: var(--text-align-y, center);
+            }
+
+            &.has-content-color-scheme .image-wrapper img {
+              border: none;
+              border-radius: var(--radius-lg);
+            }
+
+            @media (min-width: 990px) {
+              & .text-content-colored {
+                padding: var(--space-4xl);
+              }
+
+              &.has-content-color-scheme .image-text-wrapper {
+                align-items: stretch;
+                gap: 0;
+              }
+
+              &.has-content-color-scheme .image-wrapper img {
+                height: 100%;
+                object-fit: cover;
+                border-radius: 0;
+              }
+
+              &.has-content-color-scheme .text-content-colored {
+                border-radius: 0;
+              }
+
+              & .image-text-wrapper {
+                flex-direction: row;
+                gap: var(--space-4xl);
+                align-items: var(--text-align-y, center);
+              }
+
+              & .image-wrapper,
+              & .text-content {
+                width: 50%;
+              }
+
+              /* Image right variant */
+              &.layout-image-end .image-text-wrapper {
+                flex-direction: row-reverse;
+              }
+            }
+          }
+        </style>
+
+        <div class="widget-container">
+          <div class="widget-content">
+            <div class="image-text-wrapper">
+              <div class="image-wrapper reveal reveal-fade">
+                <img
+                  src="assets/images/mango-fruiting-2.png"
+                  alt=""
+                  class="image-text-image"
+                  width="1448"
+                  height="1086"
+                  loading="lazy"
+                  srcset="
+                    assets/images/mango-fruiting-2-small.png   480w,
+                    assets/images/mango-fruiting-2-medium.png 1024w,
+                    assets/images/mango-fruiting-2.png        1448w
+                  "
+                  sizes="(max-width: 989px) 100vw, (max-width: 1420px) 50vw, 710px"
+                />
+              </div>
+
+              <div class="text-content content-flow widget-content-align-start">
+                <div
+                  class="w-body w-rte t-sm t-uppercase t-muted reveal reveal-up"
+                  style="--reveal-delay: 0"
+                  data-block-id="story-eyebrow"
+                  data-setting="text"
+                >
+                  <p>WHO WE ARE</p>
+                </div>
+
+                <h2
+                  class="w-headline t-3xl reveal reveal-up"
+                  style="--reveal-delay: 1"
+                  data-block-id="story-heading"
+                  data-setting="text"
+                >
+                  Practical Solutions for the Fruit Industry
+                </h2>
+
+                <div
+                  class="w-body w-rte t-base reveal reveal-up"
+                  style="--reveal-delay: 2"
+                  data-block-id="story-text-1"
+                  data-setting="text"
+                >
+                  <p>
+                    Mango Clinic is a fruit industry solutions hub. We provide practical technical, business, market and
+                    innovation solutions that connect farmers and value chain stakeholders to the knowledge, services,
+                    technologies and markets they need to build profitable and sustainable fruit enterprises.
+                  </p>
+                </div>
+
+                <div
+                  class="w-body w-rte t-base reveal reveal-up"
+                  style="--reveal-delay: 3"
+                  data-block-id="story-text-2"
+                  data-setting="text"
+                >
+                  <p>
+                    Many fruit farmers do not lack effort. What they often lack is timely information, reliable inputs,
+                    fair market access and someone to call when a problem appears in the orchard. We close those gaps by
+                    working with farmers directly and with the organisations around them, so that help reaches the farm
+                    in a form farmers can use.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="widget_851bcd4a-4388-427f-9505-6abe2cb2b2da"
+        class="widget widget-slideshow widget-widget_851bcd4a-4388-427f-9505-6abe2cb2b2da color-scheme-highlight-primary"
+        data-widget-id="widget_851bcd4a-4388-427f-9505-6abe2cb2b2da"
+        data-widget-type="slideshow"
+        data-widget-index="3"
+        data-autoplay="true"
+        data-autoplay-speed="5000"
+      >
+        <div class="slideshow-track reveal reveal-fade">
+          <div
+            class="slideshow-slide widget color-scheme-highlight-primary is-active"
+            style="--widget-bg-color: var(--bg-primary)"
+            data-block-id="block_dd83aeee-b10d-42b4-8bf9-2d824d34d959"
+          >
+            <div class="widget-container widget-container-padded" style="justify-content: center">
+              <div class="widget-content widget-content-lg widget-content-align-center">
+                <h2
+                  class="w-headline t-5xl"
+                  data-block-id="block_dd83aeee-b10d-42b4-8bf9-2d824d34d959"
+                  data-setting="heading_text"
+                >
+                  Our Vision
+                </h2>
+
+                <p
+                  class="w-body t-lg"
+                  data-block-id="block_dd83aeee-b10d-42b4-8bf9-2d824d34d959"
+                  data-setting="text_content"
+                >
+                  A fruit industry in which every farmer can reach the knowledge, services and markets needed to run a
+                  profitable and sustainable enterprise.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="slideshow-slide widget color-scheme-highlight-primary"
+            style="--widget-bg-color: var(--bg-primary)"
+            data-block-id="block_c332bdbf-22e1-4472-88c9-4cd46b83bf8b"
+          >
+            <div class="widget-container widget-container-padded" style="justify-content: center">
+              <div class="widget-content widget-content-lg widget-content-align-center">
+                <h2
+                  class="w-headline t-5xl"
+                  data-block-id="block_c332bdbf-22e1-4472-88c9-4cd46b83bf8b"
+                  data-setting="heading_text"
+                >
+                  Our Mission
+                </h2>
+
+                <p
+                  class="w-body t-lg"
+                  data-block-id="block_c332bdbf-22e1-4472-88c9-4cd46b83bf8b"
+                  data-setting="text_content"
+                >
+                  To diagnose farm problems accurately, give independent and practical advice, connect farmers to
+                  trusted partners and markets, and help fruit enterprises grow.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <button type="button" class="slideshow-nav slideshow-prev" aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button type="button" class="slideshow-nav slideshow-next" aria-label="Next slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+
+          <button
+            class="slideshow-toggle visually-hidden"
+            type="button"
+            aria-pressed="false"
+            aria-label="Pause autoplay"
+          >
+            Pause
+          </button>
+
+          <!-- Pagination -->
+          <div class="slideshow-pagination">
+            <button type="button" class="slideshow-dot is-active" data-index="0" aria-label="Go to slide 1"></button>
+
+            <button type="button" class="slideshow-dot" data-index="1" aria-label="Go to slide 2"></button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="faq"
+        class="widget widget-accordion widget-faq color-scheme-standard-primary"
+        data-multi-open="true"
+        data-widget-id="faq"
+        data-widget-type="accordion"
+        data-widget-index="4"
+      >
+        <style>
+          .widget-faq {
+            & .accordion-content-wrapper {
+              display: grid;
+              grid-template-columns: 1fr;
+              gap: var(--space-lg);
+            }
+
+            & .accordion-list {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-md);
+            }
+
+            & .accordion-item {
+              background-color: var(--bg-primary);
+              border: var(--border-width-thin) solid var(--border-color);
+              border-radius: var(--radius-sm);
+              overflow: hidden;
+            }
+
+            &.color-scheme-standard-secondary,
+            &.color-scheme-highlight-secondary {
+              & .accordion-item {
+                background-color: var(--bg-secondary);
+              }
+            }
+
+            & .accordion-trigger {
+              width: 100%;
+              padding: var(--space-md) var(--space-lg);
+              text-align: start;
+              background: transparent;
+              border: none;
+              cursor: pointer;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              gap: var(--space-md);
+              color: var(--text-heading);
+              transition: background-color 0.2s;
+              font-family: inherit;
+
+              &:focus-visible {
+                outline-offset: -0.2rem;
+              }
+            }
+
+            & .accordion-question {
+              flex: 1;
+              text-align: start;
+            }
+
+            & .accordion-icon {
+              width: 2.4rem;
+              height: 2.4rem;
+              flex-shrink: 0;
+              transition: transform 0.3s ease;
+
+              & svg {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            & .accordion-trigger[aria-expanded="true"] .accordion-icon {
+              transform: rotate(180deg);
+            }
+
+            /* Grid-based collapse animation */
+            & .accordion-collapse {
+              display: grid;
+              grid-template-rows: 0fr;
+              transition: grid-template-rows 0.3s ease-out;
+            }
+
+            & .accordion-collapse[aria-hidden="false"] {
+              grid-template-rows: 1fr;
+            }
+
+            /* Inner wrapper handles overflow, padding stays constant */
+            & .accordion-inner {
+              min-height: 0;
+              overflow: hidden;
+            }
+
+            /* Answer has constant padding, opacity transitions */
+            & .accordion-answer {
+              padding: 0 var(--space-lg) var(--space-lg) var(--space-lg);
+              font-size: calc(var(--font-size-base) * var(--body-scale));
+              opacity: 0;
+              transform: translateY(-0.8rem);
+              transition:
+                opacity 0.25s ease-out,
+                transform 0.25s ease-out;
+            }
+
+            & .accordion-collapse[aria-hidden="false"] .accordion-answer {
+              opacity: 1;
+              transform: translateY(0);
+            }
+
+            /* Sidebar */
+            & .accordion-info {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-xl);
+            }
+
+            & .accordion-info-block {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-sm);
+            }
+
+            @media (min-width: 750px) {
+              & .accordion-trigger {
+                padding: var(--space-lg);
+              }
+
+              & .accordion-content-wrapper:not(.no-sidebar) {
+                grid-template-columns: 7fr 3fr;
+                gap: var(--space-3xl);
+              }
+
+              &.layout-reverse .accordion-content-wrapper:not(.no-sidebar) {
+                grid-template-columns: 3fr 7fr;
+              }
+
+              &.layout-reverse .accordion-list-wrapper {
+                order: 2;
+              }
+
+              &.layout-reverse .accordion-info {
+                order: 1;
+              }
+            }
+
+            /* Variation: Connected/Bordered */
+            &.accordion-bordered {
+              & .accordion-list {
+                gap: 0;
+                border: var(--border-width-thin) solid var(--border-color);
+                border-radius: var(--radius-sm);
+                overflow: hidden;
+              }
+
+              & .accordion-item {
+                border: none;
+                border-radius: 0;
+                border-block-end: var(--border-width-thin) solid var(--border-color);
+
+                &:last-child {
+                  border-block-end: none;
+                }
+              }
+            }
+          }
+        </style>
+
+        <div class="widget-container">
+          <div class="widget-header">
+            <h2 class="w-headline reveal reveal-up" style="--reveal-delay: 0" data-setting="title">Common Questions</h2>
+          </div>
+
+          <div class="widget-content widget-content-md">
+            <div class="accordion-content-wrapper no-sidebar">
+              <div class="accordion-list-wrapper">
+                <ul class="accordion-list">
+                  <li class="accordion-item reveal reveal-up" style="--reveal-delay: 0" data-block-id="faq-1">
+                    <button
+                      type="button"
+                      class="accordion-trigger"
+                      aria-expanded="false"
+                      aria-controls="accordion-content-faq-faq-1"
+                      id="accordion-trigger-faq-faq-1"
+                    >
+                      <span class="accordion-question w-title t-xl t-heading-font" data-setting="question"
+                        >What is Mango Clinic?</span
+                      >
+                      <span class="accordion-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="accordion-collapse"
+                      id="accordion-content-faq-faq-1"
+                      role="region"
+                      aria-labelledby="accordion-trigger-faq-faq-1"
+                      aria-hidden="true"
+                    >
+                      <div class="accordion-inner">
+                        <div class="accordion-answer w-body w-rte" data-setting="answer">
+                          <p>
+                            Mango Clinic is a fruit industry solutions hub. We help farmers solve production problems,
+                            run their farms as businesses and reach markets, and we connect them with the companies and
+                            institutions that serve the fruit industry.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="accordion-item reveal reveal-up" style="--reveal-delay: 1" data-block-id="faq-2">
+                    <button
+                      type="button"
+                      class="accordion-trigger"
+                      aria-expanded="false"
+                      aria-controls="accordion-content-faq-faq-2"
+                      id="accordion-trigger-faq-faq-2"
+                    >
+                      <span class="accordion-question w-title t-xl t-heading-font" data-setting="question"
+                        >Do you only work with mango?</span
+                      >
+                      <span class="accordion-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="accordion-collapse"
+                      id="accordion-content-faq-faq-2"
+                      role="region"
+                      aria-labelledby="accordion-trigger-faq-faq-2"
+                      aria-hidden="true"
+                    >
+                      <div class="accordion-inner">
+                        <div class="accordion-answer w-body w-rte" data-setting="answer">
+                          <p>
+                            Mango is where our name comes from and where much of our work is focused, but the Hub serves
+                            the wider fruit industry. Tell us about your crop and we will tell you how we can help.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="accordion-item reveal reveal-up" style="--reveal-delay: 2" data-block-id="faq-3">
+                    <button
+                      type="button"
+                      class="accordion-trigger"
+                      aria-expanded="false"
+                      aria-controls="accordion-content-faq-faq-3"
+                      id="accordion-trigger-faq-faq-3"
+                    >
+                      <span class="accordion-question w-title t-xl t-heading-font" data-setting="question"
+                        >Do you sell inputs?</span
+                      >
+                      <span class="accordion-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="accordion-collapse"
+                      id="accordion-content-faq-faq-3"
+                      role="region"
+                      aria-labelledby="accordion-trigger-faq-faq-3"
+                      aria-hidden="true"
+                    >
+                      <div class="accordion-inner">
+                        <div class="accordion-answer w-body w-rte" data-setting="answer">
+                          <p>
+                            We work with reputable manufacturers and suppliers to introduce fertilizers, biostimulants,
+                            crop protection products, biological inputs and farm technologies. We keep our technical
+                            independence, so our advice always starts from the problem on your farm, not from a product
+                            we want to sell.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="accordion-item reveal reveal-up" style="--reveal-delay: 3" data-block-id="faq-4">
+                    <button
+                      type="button"
+                      class="accordion-trigger"
+                      aria-expanded="false"
+                      aria-controls="accordion-content-faq-faq-4"
+                      id="accordion-trigger-faq-faq-4"
+                    >
+                      <span class="accordion-question w-title t-xl t-heading-font" data-setting="question"
+                        >Who can work with Mango Clinic?</span
+                      >
+                      <span class="accordion-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="accordion-collapse"
+                      id="accordion-content-faq-faq-4"
+                      role="region"
+                      aria-labelledby="accordion-trigger-faq-faq-4"
+                      aria-hidden="true"
+                    >
+                      <div class="accordion-inner">
+                        <div class="accordion-answer w-body w-rte" data-setting="answer">
+                          <p>
+                            Farmers, farmer groups and cooperatives, input companies, buyers, processors, exporters,
+                            financial institutions, researchers, technology providers and development partners.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="accordion-item reveal reveal-up" style="--reveal-delay: 4" data-block-id="faq-5">
+                    <button
+                      type="button"
+                      class="accordion-trigger"
+                      aria-expanded="false"
+                      aria-controls="accordion-content-faq-faq-5"
+                      id="accordion-trigger-faq-faq-5"
+                    >
+                      <span class="accordion-question w-title t-xl t-heading-font" data-setting="question"
+                        >How do I request a farm visit?</span
+                      >
+                      <span class="accordion-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="accordion-collapse"
+                      id="accordion-content-faq-faq-5"
+                      role="region"
+                      aria-labelledby="accordion-trigger-faq-faq-5"
+                      aria-hidden="true"
+                    >
+                      <div class="accordion-inner">
+                        <div class="accordion-answer w-body w-rte" data-setting="answer">
+                          <p>
+                            Call or WhatsApp us on +233 55 116 5132, or email
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:info@mangoclinic.org"
+                              >info@mangoclinic.org</a
+                            >. Tell us where your farm is, what you grow, roughly how many trees or acres you have, and
+                            what problem you are seeing. Photos help.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          (function () {
+            const widget = document.getElementById("faq");
+            if (!widget || widget.dataset.initialized) return;
+            widget.dataset.initialized = "true";
+
+            const isMultiOpen = widget.dataset.multiOpen === "true";
+            const triggers = widget.querySelectorAll(".accordion-trigger");
+
+            triggers.forEach(function (trigger) {
+              trigger.addEventListener("click", function () {
+                const isExpanded = this.getAttribute("aria-expanded") === "true";
+                const content = this.nextElementSibling;
+
+                if (!isMultiOpen) {
+                  // Close other items if not multi-open
+                  widget.querySelectorAll(".accordion-trigger").forEach(function (t) {
+                    if (t !== trigger) {
+                      t.setAttribute("aria-expanded", "false");
+                      t.nextElementSibling.setAttribute("aria-hidden", "true");
+                    }
+                  });
+                }
+
+                // Toggle current item
+                this.setAttribute("aria-expanded", !isExpanded);
+                content.setAttribute("aria-hidden", isExpanded);
+              });
+            });
+
+            if (window.Widgetizer?.designMode) {
+              widget.addEventListener("widget:block-select", (e) => {
+                const { blockId } = e.detail;
+                const item = widget.querySelector(`.accordion-item[data-block-id="${blockId}"]`);
+                if (!item) return;
+                const trigger = item.querySelector(".accordion-trigger");
+                const content = item.querySelector(".accordion-collapse");
+                if (!trigger || !content) return;
+                if (trigger.getAttribute("aria-expanded") === "true") return;
+
+                if (!isMultiOpen) {
+                  widget.querySelectorAll(".accordion-trigger").forEach(function (t) {
+                    if (t !== trigger) {
+                      t.setAttribute("aria-expanded", "false");
+                      t.nextElementSibling.setAttribute("aria-hidden", "true");
+                    }
+                  });
+                }
+
+                trigger.setAttribute("aria-expanded", "true");
+                content.setAttribute("aria-hidden", "false");
+              });
+            }
+          })();
+        </script>
+      </section>
+      <section
+        id="cta"
+        class="widget widget-action-bar widget-cta color-scheme-highlight-primary"
+        data-widget-id="cta"
+        data-widget-type="action-bar"
+        style="--widget-bg-color: var(--bg-primary)"
+      >
+        <style>
+          .widget-cta {
+            & .action-bar-inner {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: var(--space-xl);
+            }
+
+            & .action-bar-content {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space-2xs);
+              flex: 1;
+              min-width: 0;
+            }
+
+            & .action-bar-actions {
+              display: flex;
+              flex-shrink: 0;
+            }
+
+            @media (max-width: 749px) {
+              & .action-bar-inner {
+                flex-direction: column;
+                text-align: center;
+              }
+
+              & .action-bar-actions {
+                justify-content: center;
+              }
+            }
+          }
+        </style>
+
+        <div class="widget-container widget-container-padded">
+          <div class="action-bar-inner">
+            <div class="action-bar-content">
+              <h2 class="w-headline t-2xl" data-block-id="cta-heading" data-setting="text">
+                Let&#39;s Grow Your Fruit Business Together
+              </h2>
+
+              <div class="w-body w-rte t-sm t-uppercase t-muted" data-block-id="cta-text" data-setting="text">
+                <p>Farmers, companies and partners are all welcome.</p>
+              </div>
+            </div>
+
+            <div class="widget-actions action-bar-actions" style="gap: var(--space-md)" data-block-id="cta-button">
+              <a
+                href="contact.html"
+                class="widget-button widget-button-medium widget-button-primary"
+                data-setting="link"
+              >
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      id="footer"
+      class="widget widget-footer widget-footer color-scheme-highlight-secondary"
+      data-widget-id="footer"
+      data-widget-type="footer"
+      style="--widget-bg-color: var(--bg-primary)"
+    >
+      <style>
+        .widget-footer .footer-column:first-child {
+          grid-column: span 2;
+        }
+      </style>
+
+      <div class="widget-container footer-content">
+        <div class="widget-grid" style="--grid-cols-desktop: 4; --grid-gap: var(--space-3xl)">
+          <div class="footer-column" data-block-id="logo_text_1">
+            <style>
+              .widget-footer [data-block-id="logo_text_1"] .footer-logo {
+                max-width: 100px;
+                height: auto;
+                display: block;
+              }
+            </style>
+            <img
+              src="assets/images/mango-clinic-logo-1-small.png"
+              alt="Logo"
+              class="footer-logo"
+              width="480"
+              height="470"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="footer-column" data-block-id="text_block_1">
+            <h3 class="w-title t-lg" data-setting="title">Contact</h3>
+
+            <div class="w-body w-rte t-sm" data-setting="text">
+              <p>(503) 555-0147</p>
+              <p>
+                <a target="_blank" rel="noopener noreferrer" href="mailto:info@ssplendorfarms.org"
+                  >info@mangoclinic.org</a
+                >
+              </p>
+              <p>Team Ghana<br />Wuming District, Nanning City, Guangxi</p>
+            </div>
+          </div>
+
+          <div class="footer-column" data-block-id="menu_block_1">
+            <h3 class="w-title t-lg" data-setting="title">Pages</h3>
+
+            <nav class="footer-nav" aria-label="Pages">
+              <ul class="footer-menu">
+                <li class="footer-menu-item">
+                  <a href="index.html" class="footer-menu-link"> Home </a>
+                </li>
+                <li class="footer-menu-item is-active">
+                  <a href="about.html" class="footer-menu-link" aria-current="page"> About Us </a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="services.html" class="footer-menu-link"> Our Solutions </a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="portfolio.html" class="footer-menu-link"> Inputs and Technology </a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="contact.html" class="footer-menu-link"> Contact </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="footer-copyright w-rte" data-setting="copyright">
+          <p>© 2026 Mango Clinic. All rights reserved. Developed by Fieldbridge Analytics +233542053653</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/scripts.js?v=1" defer></script>
+
+    <script src="assets/slideshow.js?v=1" defer></script>
+  </body>
+</html>
